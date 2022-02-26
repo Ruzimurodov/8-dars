@@ -18,21 +18,9 @@ function distance(result) {
 elForm.addEventListener("submit", function(e){
     e.preventDefault()
 
-    elResult1.textContent = (distance(onFoot).toFixed(2)) + " soat"
-})
+    elResult1.textContent = (distance(onFoot).toFixed(2)) + " soat";
+    elResult2.textContent = (distance(bicycle).toFixed(2)) + " soat";
+    elResult3.textContent = (distance(car).toFixed(2)) + " soat";
+    elResult4.textContent = (distance(airplane).toFixed(2)) + " soat";
 
-elForm.addEventListener("submit", function(e){
-    e.preventDefault()
-
-    elResult2.textContent = (distance(bicycle).toFixed(2)) + " soat"
-})
-elForm.addEventListener("submit", function(e){
-    e.preventDefault()
-
-    elResult3.textContent = (distance(car).toFixed(2)) + " soat"
-})
-elForm.addEventListener("submit", function(e){
-    e.preventDefault()
-
-    elResult4.textContent = (distance(airplane).toFixed(2)) + " soat"
 })
